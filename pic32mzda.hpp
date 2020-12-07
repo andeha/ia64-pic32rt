@@ -347,8 +347,8 @@ PIC32SYMBOL(MZDA,TMR5,0xBF840810)
   PIC32SYMBOL(serie, PORT##letter,   start+0x20) /* The latched port. */    \
   PIC32SYMBOL(serie, LAT##letter,    start+0x30) /* Direct latch. */        \
   PIC32SYMBOL(serie, ODC##letter,    start+0x40) /* Open-drain=1 norm=0. */ \
-  PIC32SYMBOL(serie, CNPU#letter,    start+0x50) /* CN pull-up enable. */   \
-  PIC32SYMBOL(serie, CNPD#letter,    start+0x60) /* CN pull-down enable. */ \
+  PIC32SYMBOL(serie, CNPU##letter,   start+0x50) /* CN pull-up enable. */   \
+  PIC32SYMBOL(serie, CNPD##letter,   start+0x60) /* CN pull-down enable. */ \
   PIC32SYMBOL(serie, CNCON##letter,  start+0x70) /* CN control */           \
   PIC32SYMBOL(serie, CNEN##letter,   start+0x80) /* CN interrupt enable. */ \
   PIC32SYMBOL(serie, CNSTAT##letter, start+0x90) /* CN status. */           \
